@@ -24,7 +24,7 @@ But the basic pattern should be the same: a recurrent neural network learns fast
 </figure> 
 </div>
 
-In this example, the CUDNN RNN library also delivers a smoother learning path.
+In this example, the CUDNN RNN library also delivers a smoother learning path, although the raw numbers aren't comparable because the CUDNN uses a slightly different GRU formulation.
 
 This helps to show that, in addition to the obvious advantages GPUs offer in parallel computing, GPU-accelerated computing can also be useful for sequential tasks.
 
